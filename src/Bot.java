@@ -8,7 +8,7 @@ public class Bot {
         //Añade una nueva línea antes de mostrar la siguiente pregunta.
 
         System.out.println("Hola <name>! Soy un Bot. ¿De qué ciudad eres?");
-
+            hola
         //Recoge el dato
         //Añade una nueva línea antes de mostrar la siguiente pregunta.
 
