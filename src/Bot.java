@@ -6,25 +6,29 @@ public class Bot {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Hola, ¿Cómo te llamas?");
         String nombre = scanner.nextLine();
-        scanner.close();
 
         //Recoge el dato
         //Añade una nueva línea antes de mostrar la siguiente pregunta.
 
-        System.out.println("Hola"  + nombre + "Soy un Bot. ¿De qué ciudad eres?");
+        System.out.println("Hola "  + nombre + "Soy un Bot. ¿De qué ciudad eres?");
+
 
 
         //Recoge el dato
         //Añade una nueva línea antes de mostrar la siguiente pregunta.
+        String location = scanner.nextLine();
+        System.out.println("He escuchado que "  + location + " es un encanto. Yo nací en Oracle city.");
 
-        System.out.println("He escuchado que"  + location + "es un encanto. Yo nací en Oracle city.");
         System.out.println("\n¿Cuántos años tienes?");
 
         //Recoge el dato
         //Añade una nueva línea antes de mostrar la siguiente pregunta.
-
-        System.out.println("Entonces me dices que tienes <age> años. Yo tengo 400 años.");
-        System.out.println("Eso quiere decir que soy <divide 400 por tu edad> veces más vieja que tu.");
+        int edad = nextInt();
+        int numero1 = 400;
+         int numero2 = numero2;
+        int result = numero1 / numero2;
+        System.out.println("Entonces me dices que tienes " + edad + " años. Yo tengo 400 años.");
+        System.out.println("Eso quiere decir que soy" + result + "veces más vieja que tu.");
         System.out.println("Basta de hablar de mi misma. ¿Cuál es tu lenguaje de programación favorito? (Por favor no digas Python)");
 
         //Recoge el dato
