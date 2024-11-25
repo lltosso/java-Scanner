@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class SignUp {
     public static void main(String[] args) {
         //Vamos a crear un formulario de registro
@@ -9,9 +11,12 @@ public class SignUp {
         //4. Contraseña
 
         //Añade una nueva línea antes de mostrar la siguiente pregunta.
+        String nombre = ;
+        String apellido = ;
+        String nombre = scanner.nextLine();
 
         //Imprimir el siguiente resultado:
-        //Hola <nombre> <apellido>, tu nombre de usuario es <usuario> y tu contraseña es <contraseña>, gracias por registrarte.
+        "Hola" + nombre +  + apellido + , "tu nombre de usuario es " <usuario> y tu contraseña es <contraseña>, gracias por registrarte.
         //Añade una nueva línea antes de mostrar la respuesta
     }
 }
