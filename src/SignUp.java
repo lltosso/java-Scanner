@@ -2,6 +2,22 @@ import java.util.Scanner;
 
 public class SignUp {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese su nombre");
+        String nombre = scanner.nextLine();
+
+        System.out.println("Ingrese su apellido");
+        String apellido = scanner.nextLine();
+
+        System.out.println("Ingrese su nombre de usuario");
+        String usuario = scanner.nextLine();
+
+        System.out.println("Ingrese su contrasenya");
+        String contrasenya = scanner.nextLine();
+
+
+
+
         //Vamos a crear un formulario de registro
 
         //Los datos que debes pedir al usuario son:
@@ -11,12 +27,11 @@ public class SignUp {
         //4. Contraseña
 
         //Añade una nueva línea antes de mostrar la siguiente pregunta.
-        String nombre = ;
-        String apellido = ;
-        String nombre = scanner.nextLine();
+
 
         //Imprimir el siguiente resultado:
-        "Hola" + nombre +  + apellido + , "tu nombre de usuario es " <usuario> y tu contraseña es <contraseña>, gracias por registrarte.
-        //Añade una nueva línea antes de mostrar la respuesta
+        System.out.println( "\nHola" + nombre + ""  + apellido + ", tu nombre de usuario es " + usuario + "y tu contraseña es " + contrasenya + ", gracias por registrarte.");
+
+
     }
 }
