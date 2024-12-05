@@ -10,7 +10,7 @@ public class Bot {
         //Recoge el dato
         //Añade una nueva línea antes de mostrar la siguiente pregunta.
 
-        System.out.println("Hola "  + nombre + "Soy un Bot. ¿De qué ciudad eres?");
+        System.out.println("Hola "  + nombre + " Soy un Bot. ¿De qué ciudad eres?");
 
 
 
@@ -23,12 +23,10 @@ public class Bot {
 
         //Recoge el dato
         //Añade una nueva línea antes de mostrar la siguiente pregunta.
-        int edad = (4);
-        int numero1 = 2;
+        int age = scanner.nextInt();
 
-        int result = numero1 / edad;
-        System.out.println("Entonces me dices que tienes " + ((double)edad / numero1) + " años. Yo tengo 400 años.");
-        System.out.println("Eso quiere decir que soy " + result + " veces más vieja que tu.");
+        System.out.println("\nEntonces me dices que tienes " + age + " años. Yo tengo 400 años.");
+        System.out.println("Eso quiere decir que soy " + (400 / age) + " veces más vieja que tú.");
         System.out.println("Basta de hablar de mi misma. ¿Cuál es tu lenguaje de programación favorito? (Por favor no digas Python)");
 
         //Recoge el dato
